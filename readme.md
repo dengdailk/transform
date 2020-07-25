@@ -1,0 +1,7 @@
+共享元素过渡指的两个Activity共享的视图如何在两个Activity之间进行过渡。
+定义共享元素过渡效果「步骤」如下：
+
+在两个Activity定义两个相同类型的View；
+给两个View设置相同的transitionName属性；
+通过ActivityOptions.makeSceneTransitionAnimation()函数生成Bundle对象；
+startActivity()函数传递bundle对象。
